@@ -1,5 +1,16 @@
 <?php 
+function add($Number1, $Number2) {
+  echo $Number1 + $Number2;
+}
 
-$title= "My Bois Site"
+
+
+
+?>
+<?php 
+
+
+add(2,6); 
+
 
 ?>

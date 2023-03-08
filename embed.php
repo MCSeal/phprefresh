@@ -1,3 +1,6 @@
+<?php require_once 'dynamic.php' ; ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,16 +11,22 @@
     <title>Document</title>
     <h1>welcome</h1>
 
-    <?php 
-//title of site
-$title= "My Bois Site"
 
-?>
-    <?php echo$title; ?>
 </head>
 
-<body>
 
+
+
+<body>
+    <?php
+$list = array(5,4,12,3,'5', '<h1>hello!</h1>');
+foreach ($list as $value){
+
+    echo "$value <br>";
+
+}
+
+?>
 </body>
 
 </html>
