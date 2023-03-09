@@ -20,11 +20,23 @@
 <body>
     <?php
 $list = array(5,4,12,3,'5', '<h1>hello!</h1>');
-foreach ($list as $value){
-
+foreach ($list as $value) {
     echo "$value <br>";
-
 }
+
+echo"<br>";
+
+$assocArray = array("firstStrng" => "Charles", "secondString" => "Matt");
+
+
+print_r($assocArray["firstStrng"]);
+
+
+/*
+associate array... basically JS object
+
+
+*/
 
 ?>
 </body>
