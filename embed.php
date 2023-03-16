@@ -32,6 +32,26 @@ $assocArray = array("firstStrng" => "Charles", "secondString" => "Matt");
 print_r($assocArray["firstStrng"]);
 
 
+$success = true;
+
+if ($success){
+    include_once 'includes/header.php';
+} else {
+    echo "<h2>Failed!</h2>";
+}
+
+
+if (3 > 5 ){
+    echo"three is less then five";
+} elseif( 4 < 5) {
+    echo"wow who would have thought 5 is greater then four";
+}
+
+
+
+
+
+
 /*
 associate array... basically JS object
 
